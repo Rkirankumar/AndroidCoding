@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="#fff"
-    android:padding="8dp">
+    android:background="#E5E8EA">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp">
 
         <TextView
             android:id="@+id/tvTitle"
@@ -32,7 +33,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.5"
-                android:text="No Description"
                 android:textColor="@color/gray"
                 android:textSize="14sp" />
 

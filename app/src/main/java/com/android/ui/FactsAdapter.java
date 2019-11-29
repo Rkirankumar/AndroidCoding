@@ -75,6 +75,7 @@ public class FactsAdapter extends RecyclerView.Adapter<BaseViewHolder> {
             if (mFacts.getImageHref() != null) {
                 Glide.with(itemView.getContext())
                         .load(mFacts.getImageHref())
+                        .placeholder(R.drawable.ic_error)
                         .error(R.drawable.ic_error)
                         .into(ivThumbnail);
             }
