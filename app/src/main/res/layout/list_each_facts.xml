@@ -2,23 +2,24 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:background="#E5E8EA">
+    android:layout_margin="@dimen/card"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_margin="5dp">
+        android:background="@drawable/ic_gradiant">
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Android Example"
+            android:layout_marginLeft="5dp"
             android:textAlignment="gravity"
             android:textColor="@color/blue"
-            android:textSize="18sp"
+
+            android:textSize="@dimen/title_siz"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -32,17 +33,23 @@
                 android:id="@+id/tvDescription"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:textColor="@color/gray"
-                android:textSize="14sp" />
+                android:layout_weight="1.3"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
 
 
             <ImageView
                 android:id="@+id/ivThumbnail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".5"
+                android:layout_weight=".6"
                 android:src="@drawable/ic_error" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:src="@drawable/ic_arrow_right" />
 
 
         </LinearLayout>

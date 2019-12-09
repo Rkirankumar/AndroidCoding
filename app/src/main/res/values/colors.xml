@@ -5,7 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="blue">#4682BB</color>
     <color name="gray">#737475</color>
-    <color name="startColor">@color/colorPrimary</color>
-    <color name="endColor">#c7000000</color>
+    <color name="startColor">#b9b9ba</color>
+    <color name="endColor">#FFF</color>
     <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
 </resources>

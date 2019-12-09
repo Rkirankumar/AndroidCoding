@@ -11,10 +11,9 @@
         android:id="@+id/toolbar_actionbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@drawable/bg_gradiant"
+        android:background="@color/startColor"
         android:fitsSystemWindows="true"
-        app:title="Home Work"
-        app:titleTextColor="@color/white" />
+        app:titleTextColor="@color/blue" />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh"
