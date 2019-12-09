@@ -10,7 +10,7 @@ public class SharePreferenceUtils {
 
     private SharePreferenceUtils()
     {
-
+        // Default constructor
     }
 
     public static void init(Context context)
@@ -26,7 +26,7 @@ public class SharePreferenceUtils {
     public static void write(String key, String value) {
         SharedPreferences.Editor prefsEditor = mSharedPref.edit();
         prefsEditor.putString(key, value);
-        prefsEditor.commit();
+        prefsEditor.apply();
     }
 
 
